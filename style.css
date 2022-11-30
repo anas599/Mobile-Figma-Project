@@ -33,7 +33,6 @@ p{
 h1{
   color: #172B4D;
   font-size: 40px;
-  font-weight:900;
 }
 
 
@@ -45,7 +44,8 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 100%;  
+  min-width:max-content
+  /* width: 100%;   */
   }
 
 .logo{
