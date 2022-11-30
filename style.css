@@ -1,6 +1,52 @@
-h1 {
-  color: black;
-  background-color: antiquewhite;
-  position: relative;
+.toolbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.headline{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 58px;
+
+  position: absolute;
+  width: 375px;
+  height: 726px;
+  left: 0px;
+  top: 92px;}
+
+h2 {
+  color: rgb(116, 9, 123);
+}
+p{
+  color: rgb(59, 55, 55);
+}
+h1{
+  color: rgb(38, 83, 196);
+}
+
+
+body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  width: 100%;  
+  }
+
+.logo{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+  
+    width: 114px;
+    height: 48px;
+    left: 12px;
+    top: calc(50% - 48px/2);
 }
