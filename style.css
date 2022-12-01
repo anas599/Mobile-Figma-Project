@@ -253,17 +253,6 @@ body {
   transition: 0.7s;
 }
 
-.getres:hover {
-  background-color: #36b37f;
-  transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2), 0 6px 20px 0 rgba(14, 175, 49, 0.19);
-}
-
-.getres:active {
-  background-color: #008552;
-  transition: 0.7s;
-}
-
 .getres {
   color: azure;
   top: 50%;
@@ -275,6 +264,17 @@ body {
   border-radius: 7px;
   height: 50px;
   width: 150px;
+}
+
+.getres:hover {
+  background-color: #36b37f;
+  transition: 0.7s;
+  box-shadow: 0 4px 8px 0 rgba(49, 181, 9, 0.2), 0 6px 20px 0 rgba(14, 175, 49, 0.19);
+}
+
+.getres:active {
+  background-color: #008552;
+  transition: 0.7s;
 }
 
 .multi {
