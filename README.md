@@ -59,11 +59,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Anas's Hello Microverse Project] <a name="about-project"></a>
+# 📖 [Anas's Mobile Porfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[Anas's Hello Microverse Project]** is a...
+**[Anas's Mobile Porfolio]** is a mobile responsive website to demonstrate my knowledge in HTML and CSS
 
 ## 🛠 Built With <a name="built-with"></a>
 
