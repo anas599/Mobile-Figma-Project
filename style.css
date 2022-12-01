@@ -28,7 +28,6 @@ h2 {
   margin-top: -80px;
 }
 
-
 h1 {
   font-style: normal;
   font-weight: 700;
@@ -87,6 +86,7 @@ p {
   line-height: 28px;
   margin-top: -20%;
 }
+
 .social {
   display: flex;
   flex-direction: row;
