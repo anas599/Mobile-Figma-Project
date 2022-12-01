@@ -173,13 +173,14 @@ body {
   padding-top: 8px;
   inline-size: 26%;
 }
+
 .lr {
-  background-color: #ffffff;
+  background-color: #fff;
   list-style: none;
   box-sizing: border-box;
   margin-right: 10px;
   border-radius: 10%;
-  color: #36B37E;
+  color: #36b37e;
   border: none;
   padding-block-end: 10px;
   font-size: 12px;
@@ -188,12 +189,12 @@ body {
 }
 
 .lc {
-  background-color: #ffffff;
+  background-color: #fff;
   list-style: none;
   box-sizing: border-box;
   margin-right: 10px;
   border-radius: 10%;
-  color: #36B37E;
+  color: #36b37e;
   border: none;
   padding-block-end: 10px;
   font-size: 12px;
@@ -202,12 +203,12 @@ body {
 }
 
 .lj {
-  background-color: #ffffff;
+  background-color: #fff;
   list-style: none;
   box-sizing: border-box;
   margin-right: 10px;
   border-radius: 10%;
-  color: #36B37E;
+  color: #36b37e;
   border: none;
   padding-block-end: 10px;
   font-size: 12px;
@@ -216,12 +217,12 @@ body {
 }
 
 .lh {
-  background-color: #ffffff;
+  background-color: #fff;
   list-style: none;
   box-sizing: border-box;
   margin-right: 10px;
   border-radius: 10%;
-  color: #36B37E;
+  color: #36b37e;
   border: none;
   padding-block-end: 10px;
   font-size: 12px;
@@ -262,22 +263,23 @@ body {
 .allw {
   border: #ebf0ee 3px solid;
   border-radius: 10px;
-    width: 375px;
+  width: 375px;
 }
 
 .bbord {
   border: #36b37f 5px solid;
 }
 
-.languages{
-  background-color: #EBF0EE;
+.languages {
+  background-color: #ebf0ee;
   border-radius: 10px;
 }
-.frame{
+
+.frame {
   flex-wrap: wrap;
-    background-color: #EBF0EE;
-    border: #ebf0ee 3px solid;
-    border-radius: 10px;  
+  background-color: #ebf0ee;
+  border: #ebf0ee 3px solid;
+  border-radius: 10px;
 }
 
 .fr {
@@ -286,9 +288,10 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin-inline-end: 10px;
-
 }
 
-.aboutme,.frame,.languages{
+.aboutme,
+.frame,
+.languages {
   width: 375px;
 }
