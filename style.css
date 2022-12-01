@@ -110,6 +110,7 @@ body {
   display: grid;
   grid-column-start: 2;
   grid-row-end: 4;
+  width: 375px;
 }
 
 .lang {
@@ -172,6 +173,61 @@ body {
   padding-top: 8px;
   inline-size: 26%;
 }
+.lr {
+  background-color: #ffffff;
+  list-style: none;
+  box-sizing: border-box;
+  margin-right: 10px;
+  border-radius: 10%;
+  color: #36B37E;
+  border: none;
+  padding-block-end: 10px;
+  font-size: 12px;
+  padding-top: 8px;
+  inline-size: 35%;
+}
+
+.lc {
+  background-color: #ffffff;
+  list-style: none;
+  box-sizing: border-box;
+  margin-right: 10px;
+  border-radius: 10%;
+  color: #36B37E;
+  border: none;
+  padding-block-end: 10px;
+  font-size: 12px;
+  padding-top: 8px;
+  inline-size: 20%;
+}
+
+.lj {
+  background-color: #ffffff;
+  list-style: none;
+  box-sizing: border-box;
+  margin-right: 10px;
+  border-radius: 10%;
+  color: #36B37E;
+  border: none;
+  padding-block-end: 10px;
+  font-size: 12px;
+  padding-top: 8px;
+  inline-size: 30%;
+}
+
+.lh {
+  background-color: #ffffff;
+  list-style: none;
+  box-sizing: border-box;
+  margin-right: 10px;
+  border-radius: 10%;
+  color: #36B37E;
+  border: none;
+  padding-block-end: 10px;
+  font-size: 12px;
+  padding-top: 8px;
+  inline-size: 26%;
+}
 
 .see {
   color: azure;
@@ -206,8 +262,33 @@ body {
 .allw {
   border: #ebf0ee 3px solid;
   border-radius: 10px;
+    width: 375px;
 }
 
 .bbord {
   border: #36b37f 5px solid;
+}
+
+.languages{
+  background-color: #EBF0EE;
+  border-radius: 10px;
+}
+.frame{
+  flex-wrap: wrap;
+    background-color: #EBF0EE;
+    border: #ebf0ee 3px solid;
+    border-radius: 10px;  
+}
+
+.fr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline-end: 10px;
+
+}
+
+.aboutme,.frame,.languages{
+  width: 375px;
 }
