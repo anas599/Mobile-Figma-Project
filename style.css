@@ -110,8 +110,8 @@ p {
   display: grid;
   grid-column-start: 2;
   grid-row-end: 4;
-  border: #ebf0ee 3px solid;
-  border-radius: 10px;
+  /* border: #ebf0ee 3px solid;
+  border-radius: 10px; */
 }
 
 .lang {
@@ -195,4 +195,8 @@ p {
 .allw {
   border: #ebf0ee 3px solid;
   border-radius: 10px;
+}
+
+.bbord{
+  border: #36b37f 5px solid;
 }
