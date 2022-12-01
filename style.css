@@ -15,6 +15,11 @@ section {
   height: 726px;
   left: 0;
   top: 92px;
+  background-image: url('background.png');
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-clip: inherit;
 }
 
 h2 {
@@ -96,12 +101,4 @@ body {
   text-decoration: none;
   border-radius: 50%;
   color: rgb(126, 122, 122);
-}
-
-section {
-  background-image: url('background.png');
-  background-position-x: center;
-  background-position-y: center;
-  background-clip: inherit;
-  background-size: cover;
 }
