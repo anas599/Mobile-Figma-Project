@@ -110,8 +110,6 @@ p {
   display: grid;
   grid-column-start: 2;
   grid-row-end: 4;
-  /* border: #ebf0ee 3px solid;
-  border-radius: 10px; */
 }
 
 .lang {
@@ -130,7 +128,7 @@ p {
   padding-block-end: 10px;
   font-size: 12px;
   padding-top: 8px;
-  inline-size: 30%;
+  inline-size: 35%;
 }
 
 .l2 {
@@ -158,7 +156,7 @@ p {
   padding-block-end: 10px;
   font-size: 12px;
   padding-top: 8px;
-  inline-size: 20%;
+  inline-size: 30%;
 }
 
 .l4 {
@@ -172,7 +170,7 @@ p {
   padding-block-end: 10px;
   font-size: 12px;
   padding-top: 8px;
-  inline-size: 20%;
+  inline-size: 26%;
 }
 
 .see {
@@ -197,6 +195,6 @@ p {
   border-radius: 10px;
 }
 
-.bbord{
+.bbord {
   border: #36b37f 5px solid;
 }
