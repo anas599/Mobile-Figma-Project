@@ -8,18 +8,21 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 64px 24px;
+  padding-top: 20%;
   gap: 58px;
   position: absolute;
-  width: 375px;
+
+  /* width: 100%; */
   height: 726px;
-  left: 0;
-  top: 92px;
+  top: 100px;
   background-image: url('./Assets/background.png');
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
-  background-clip: inherit;
+
+  /* max-width: fit-content; */
+
+  /* background-clip: inherit; */
 }
 
 h2 {
@@ -44,9 +47,8 @@ body {
   font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
   text-align: center;
-  min-width: max-content;
 }
 
 .logo {
@@ -62,9 +64,10 @@ body {
 
 .mnu {
   display: flex;
-  justify-content: right;
+
+  /* justify-content: right; */
   width: 50%;
-  float: right;
+  float: left;
   font-size: 40px;
   padding-left: 220px;
 }
@@ -111,6 +114,7 @@ body {
   grid-column-start: 2;
   grid-row-end: 4;
   width: 375px;
+  position: relative;
 }
 
 .lang {
@@ -256,7 +260,10 @@ body {
 
 .getres {
   color: azure;
-  top: 50%;
+
+  /* top: 50%; */
+
+  /* left: 50; */
   background-color: #36b37f;
   border: none;
   padding-block-end: 10px;
@@ -264,8 +271,8 @@ body {
   padding-top: 8px;
   border-radius: 7px;
   height: 50px;
-  width: 150px;
-  position: relative;
+  width: 50%;
+  margin: auto;
 }
 
 .getres:hover {
@@ -292,7 +299,9 @@ body {
 
 .languages {
   background-color: #ebf0ee;
+  border: #ebf0ee 3px solid;
   border-radius: 10px;
+  position: relative;
 }
 
 .frame {
@@ -300,6 +309,7 @@ body {
   background-color: #ebf0ee;
   border: #ebf0ee 3px solid;
   border-radius: 10px;
+  position: relative;
 }
 
 .fr {
@@ -331,9 +341,4 @@ body {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-}
-
-html,
-body {
-  overflow-x: hidden;
 }
