@@ -332,3 +332,8 @@ body {
   line-height: 52px;
   color: #172b4d;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
