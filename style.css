@@ -295,6 +295,8 @@ body {
   border-radius: 10px;
   width: 375px;
   padding-block-start: 10px;
+  margin-bottom: 20%;
+  padding-block-end: 5%;
 }
 
 .languages {
